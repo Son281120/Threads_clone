@@ -20,7 +20,7 @@ import { ChangeEvent, useState } from "react";
 import { Textarea } from "../ui/textarea";
 import { isBase64Image } from "@/lib/utils";
 import { useUploadThing } from "@/lib/uploadthing";
-import { updateUser } from "@/lib/actions/use.action";
+import { updateUser } from "@/lib/actions/use.actions";
 import { usePathname, useRouter } from "next/navigation";
 
 interface Props {

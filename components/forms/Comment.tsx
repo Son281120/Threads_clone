@@ -16,7 +16,7 @@ import { Input } from "../ui/input";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import { CommentValidation } from "@/lib/validations/thread";
-import { addCommentToThread } from "@/lib/actions/thread.action";
+import { addCommentToThread } from "@/lib/actions/thread.actions";
 // import { createThread } from "@/lib/actions/thread.action";
 
 interface Props {

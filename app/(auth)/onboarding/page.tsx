@@ -1,5 +1,5 @@
 import AccountProfile from "@/components/forms/AccountProfile";
-import { fetchUser } from "@/lib/actions/use.action";
+import { fetchUser } from "@/lib/actions/use.actions";
 import { currentUser } from "@clerk/nextjs"
 
 async function Page() {

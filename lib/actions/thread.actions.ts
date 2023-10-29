@@ -26,10 +26,8 @@ export async function createThread({
             author,
             community: null,
         });
-        console.log(author);
-
         await User.findByIdAndUpdate(author, {
-            $pull: { threads: createdThread._id },
+            $push: { threads: createdThread._id },
         });
 
         revalidatePath(path);
